@@ -15,11 +15,7 @@ import javax.servlet.http.HttpSession;
 /**
  *
  * getSession method is not verifies time.
- *
- * HttpServletSession encapsulates StandardSession,but standardSession is still
- * referenced when  by HttpServletSession
- *
- *
+ * 'public Session getSession(boolean create)'  in DelegatingSubject.
  *
  */
 @Controller
